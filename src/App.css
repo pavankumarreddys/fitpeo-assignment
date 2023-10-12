@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-custom{
+height: 35px;
+width: 35px;
+}
+.man-logo{
+  height: 45px;
+  width: 45px;
+}
+
+@media screen and (min-width:992px){
+  .man-logo{
+    height: 40px;
+    width: 40px;
+  }
+}
+.input-custom{
+  border: 2px solid gray;
+  background-color: transparent;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+@media screen and (min-width:762px){
+  .input-custom{
+    width: 185px;
+  border: 2px solid rgb(247, 242, 242);
+
+  }
+}
+
+/* styles.css or styles.scss */
+.search-box{
+  position: relative;
+  width: 100px;
+}
+@media screen and (min-width:762px){
+  .search-box{
+    width: 185px;
+  }
+}
+.custom-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.box-custom{
+  background-color: whitesmoke;
+  border: 1px solid goldenrod;
+  width: 253px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;  
+}
+
+.icons-img-custom{
+  height: 90px;
+  width: 60px;
+}
+.bag{
+  background-color: rgb(249, 160, 218);
+  border-radius: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-money{
+  background-color: rgb(187, 229, 240);
+  border-radius: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orders-money{
+  background-color: rgb(178, 131, 218);
+  border-radius: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-money{
+  background-color: rgb(223, 245, 172);
+  border-radius: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
