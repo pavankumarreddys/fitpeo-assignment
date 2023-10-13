@@ -1,0 +1,179 @@
+[debug] [2023-10-13T11:23:41.632Z] ----------------------------------------------------------------------
+[debug] [2023-10-13T11:23:41.636Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-13T11:23:41.637Z] CLI Version:   12.7.0
+[debug] [2023-10-13T11:23:41.637Z] Platform:      win32
+[debug] [2023-10-13T11:23:41.638Z] Node Version:  v18.17.0
+[debug] [2023-10-13T11:23:41.639Z] Time:          Fri Oct 13 2023 16:53:41 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T11:23:41.640Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-13T11:23:41.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-13T11:23:41.802Z] > authorizing via signed-in user (pavanreddyr34@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell\OneDrive\Documents\websitePPS\fitpeo-assignment
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-13T11:24:00.317Z] Using project from CLI flag: fitpio-assignment
+[debug] [2023-10-13T11:24:00.320Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment [none]
+[debug] [2023-10-13T11:24:01.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment 200
+[debug] [2023-10-13T11:24:01.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment {"projectId":"fitpio-assignment","projectNumber":"532836431055","displayName":"fitpio-assignment","name":"projects/fitpio-assignment","resources":{"hostingSite":"fitpio-assignment"},"state":"ACTIVE","etag":"1_48c52d77-94fd-4987-971c-2e08bf131360"}
+[info] i  Using project fitpio-assignment (fitpio-assignment) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote no/404.html 
+[debug] [2023-10-13T11:24:34.003Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-10-13T11:24:55.116Z] *** [apiv2] error from fetch(https://www.gstatic.com/firebasejs/releases.json, {"headers":{},"method":"GET"}): FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: connect ETIMEDOUT 2404:6800:4009:825::2003:443
+[debug] [2023-10-13T11:25:00.134Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-13T11:25:12.751Z] ----------------------------------------------------------------------
+[debug] [2023-10-13T11:25:12.755Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-13T11:25:12.756Z] CLI Version:   12.7.0
+[debug] [2023-10-13T11:25:12.757Z] Platform:      win32
+[debug] [2023-10-13T11:25:12.757Z] Node Version:  v18.17.0
+[debug] [2023-10-13T11:25:12.760Z] Time:          Fri Oct 13 2023 16:55:12 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T11:25:12.760Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-13T11:25:12.907Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-13T11:25:12.909Z] > authorizing via signed-in user (pavanreddyr34@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell\OneDrive\Documents\websitePPS\fitpeo-assignment
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-13T11:25:29.594Z] Using project from CLI flag: fitpio-assignment
+[debug] [2023-10-13T11:25:29.597Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment [none]
+[debug] [2023-10-13T11:25:50.812Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443
+[debug] [2023-10-13T11:25:50.813Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment (original: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443)
+[debug] [2023-10-13T11:25:55.830Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-13T11:26:06.248Z] ----------------------------------------------------------------------
+[debug] [2023-10-13T11:26:06.252Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-13T11:26:06.253Z] CLI Version:   12.7.0
+[debug] [2023-10-13T11:26:06.254Z] Platform:      win32
+[debug] [2023-10-13T11:26:06.254Z] Node Version:  v18.17.0
+[debug] [2023-10-13T11:26:06.256Z] Time:          Fri Oct 13 2023 16:56:06 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T11:26:06.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-13T11:26:06.401Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-13T11:26:06.402Z] > authorizing via signed-in user (pavanreddyr34@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell\OneDrive\Documents\websitePPS\fitpeo-assignment
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-13T11:26:23.610Z] Using project from CLI flag: fitpio-assignment
+[debug] [2023-10-13T11:26:23.614Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment [none]
+[debug] [2023-10-13T11:26:44.775Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443
+[debug] [2023-10-13T11:26:44.776Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment (original: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443)
+[debug] [2023-10-13T11:26:49.796Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-13T11:27:01.992Z] ----------------------------------------------------------------------
+[debug] [2023-10-13T11:27:01.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-13T11:27:01.996Z] CLI Version:   12.7.0
+[debug] [2023-10-13T11:27:01.996Z] Platform:      win32
+[debug] [2023-10-13T11:27:01.996Z] Node Version:  v18.17.0
+[debug] [2023-10-13T11:27:01.998Z] Time:          Fri Oct 13 2023 16:57:01 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T11:27:01.998Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-13T11:27:02.149Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-13T11:27:02.150Z] > authorizing via signed-in user (pavanreddyr34@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell\OneDrive\Documents\websitePPS\fitpeo-assignment
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-13T11:27:18.626Z] Using project from CLI flag: fitpio-assignment
+[debug] [2023-10-13T11:27:18.632Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment [none]
+[debug] [2023-10-13T11:27:39.786Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443
+[debug] [2023-10-13T11:27:39.788Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment (original: request to https://firebase.googleapis.com/v1beta1/projects/fitpio-assignment failed, reason: connect ETIMEDOUT 2404:6800:4007:826::200a:443)
+[debug] [2023-10-13T11:27:44.805Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
