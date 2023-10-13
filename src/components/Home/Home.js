@@ -19,7 +19,7 @@ export const Home = () => {
             <div className='sidebar-container bg-blue-900 col-12 col-md-4 col-lg-2 p-2 text-white '>
                 <Sidebar menuTrigger={menuTrigger}/>
             </div>
-            <div className='col-12 col-md-8 p-2 col-lg-10 '>
+            <div className='bg-white col-12 col-md-8 p-2 col-lg-10 '>
                 {!mobilemenuActive&& <CenterContent/>}
             </div>
             

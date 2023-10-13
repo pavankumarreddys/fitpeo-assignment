@@ -54,8 +54,8 @@ width: 35px;
   cursor: pointer;
 }
 .box-custom{
-  background-color: whitesmoke;
-  border: 1px solid goldenrod;
+  background-color: white;
+  border: 1px solid white;
   width: 253px;
   flex-grow: 1;
   flex-shrink: 1;

@@ -178,7 +178,7 @@ export const Sidebar = (props) => {
         </ul>
         </div>
         
-        <div className=' bg-slate-600 flex justify-between items-center hover:bg-slate-600 rounded p-1'>
+        <div className=' bg-slate-500 flex justify-between items-center hover:bg-slate-600 rounded p-1'>
             <div className='flex justify-center items-center'>
                 <img src={manlog} className='man-logo'/>
                 <div className=''>

@@ -32,7 +32,7 @@ export const CenterContent = () => {
             </div>
         </div>
         <div className='mt-3 flex flex-wrap gap-2'>
-            <div className='box-custom shadow-xl flex justify-start items-center'>
+            <div className='box-custom shadow-md flex justify-start items-center'>
                 <div className='in-money mr-2'>
                 <img src={money} className='icons-img-custom'/>
                 </div>
@@ -45,7 +45,7 @@ export const CenterContent = () => {
                 </div>
             </div>
 
-            <div className='box-custom shadow-xl flex justify-start items-center'>
+            <div className='box-custom shadow-md flex justify-start items-center'>
                 <div className='orders-money mr-2'>
                 <img src={order} className='icons-img-custom'/>
                 </div>
@@ -59,7 +59,7 @@ export const CenterContent = () => {
                 </div>
             </div>
 
-            <div className='box-custom shadow-xl flex justify-start items-center'>
+            <div className='box-custom shadow-md flex justify-start items-center'>
                 <div className='wallet-money mr-2'>
                 <img src={wallet} className='icons-img-custom'/>
                 </div>
@@ -72,7 +72,7 @@ export const CenterContent = () => {
                 </div>
             </div>
 
-            <div className='box-custom shadow-xl flex justify-between items-center'>
+            <div className='box-custom shadow-md flex justify-between items-center'>
                 <div className='bag mr-2'>
                 <img src={bag} className='icons-img-custom'/>
                 </div>
