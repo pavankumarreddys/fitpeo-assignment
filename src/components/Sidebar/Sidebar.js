@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {BiMenuAltRight,BiSolidKey,BiSolidUser } from "react-icons/bi"
 import {CiSearch} from 'react-icons/ci'
 import { FaTimes } from 'react-icons/fa'
@@ -10,17 +10,18 @@ import {BsBox} from 'react-icons/bs'
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import logos from '../../assets/logo/logos.png'
 import manlog from '../../assets/logo/manlogo.png'
-export const Sidebar = () => {
+export const Sidebar = (props) => {
+    const {menuTrigger} = props
     const [menu,setMenu] = useState(true)
     const [nav, setNav] = useState(false);
-    const [activateMenu ,setActivateMenu] = useState(false)
+    
+    useEffect(()=>{
+        menuTrigger(nav)
+    },[nav])
 
-    const activateMenuList = ()=>{
-
-    }
   return (
     <>
-    <div className='md:hidden p-2 cursor-pointer items-center text-white '>
+    <div className='md:hidden p-2 cursor-pointer items-center text-white'>
         {menu?(
             <div className='flex justify-between items-center '>
                 <div className='flex' >
@@ -30,7 +31,7 @@ export const Sidebar = () => {
                     </div>
                 </div>
                 <div>
-                    Hello Pavan ,
+                    Hello Pavan 👋🏻,
                 </div>
                 <div className="search-box">
                 <button className='custom-button'><CiSearch className="search-icon" /></button>
@@ -119,7 +120,7 @@ export const Sidebar = () => {
         </ul>
         }
     </div>
-    <div className='h-screen pb-3 hidden md:flex flex-col justify-between'>
+    <div className='h-screen  pb-3 hidden md:flex flex-col justify-between fixed'>
         
         <div>
         <div className='flex'>
@@ -177,7 +178,7 @@ export const Sidebar = () => {
         </ul>
         </div>
         
-        <div className='bg-slate-600 flex justify-between items-center hover:bg-slate-600 rounded p-1'>
+        <div className=' bg-slate-600 flex justify-between items-center hover:bg-slate-600 rounded p-1'>
             <div className='flex justify-center items-center'>
                 <img src={manlog} className='man-logo'/>
                 <div className=''>

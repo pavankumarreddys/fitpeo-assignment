@@ -21,7 +21,7 @@ export const Barchart = () => {
   return (
     <div className='grid grid-cols-3 gap-2'>
         <div className='col-span-3 shadow-xl lg:col-span-2 '>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center p-2'>
             <div>
                 <h1 className='font-bold'>Overview</h1>
                 <p className='font-bolder text-slate-500'>Monthly earnings</p>
@@ -32,19 +32,17 @@ export const Barchart = () => {
             </select>
         </div>
         <BarChart  width={
-          window.innerWidth < 450
-            ? 300  // Small screen (sm)
-            : window.innerWidth < 600
-            ? 450  // Medium screen (md)
-            : 600  // Large screen (lg)
-        } height={300} data={data}>
-    <XAxis dataKey="name" stroke="#8884d8" />
-    {/* <YAxis /> */}
-    <Tooltip wrapperStyle={{ width: 100, backgroundColor: '#ccc' }} />
-    <Legend width={100} wrapperStyle={{ top: 40, right: 20, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} />
-    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-    <Bar dataKey="uv" fill="fill"  barSize={30} />
-    
+            window.innerWidth < 450
+              ? 350  // Small screen (sm)
+              : window.innerWidth < 600
+              ? 450  // Medium screen (md)
+              : 600  // Large screen (lg)
+          } height={300} data={data}>
+          <XAxis dataKey="name" stroke="#8884d8" />
+          <Tooltip wrapperStyle={{ width: 100, backgroundColor: '#ccc' }} />
+          <Legend width={100} wrapperStyle={{ top: 40, right: 20, backgroundColor: '#f5f5f5', border: '1px solid #d5d5d5', borderRadius: 3, lineHeight: '40px' }} />
+          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+          <Bar dataKey="uv" fill="fill"  barSize={20} />
         </BarChart>
         </div>
         <div className='col-span-3 shadow-xl lg:col-span-1 '>
